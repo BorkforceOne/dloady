@@ -1,0 +1,26 @@
+{
+  "name": "dloady",
+  "version": "0.0.1",
+  "description": "Download a file using multiple streams",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "babel-node tests/main.js",
+    "build": "babel src --out-dir lib"
+  },
+  "author": "Brandon Garling",
+  "license": "ISC",
+  "repository": "https://github.com/bjg96/dloady",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-regenerator": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-node6": "^11.0.0",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "promisify-node": "^0.4.0"
+  }
+}
