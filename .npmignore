@@ -1,6 +1,7 @@
 # Source/tests
 src/
 tests/
+.babelrc
 
 # Logs
 logs
