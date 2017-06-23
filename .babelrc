@@ -2,8 +2,12 @@
   "presets": [
     "node6"
   ],
-  "plugins": ["syntax-async-functions","transform-regenerator", ["transform-runtime", {
+  "plugins": [
+    "transform-class-properties",
+    "syntax-async-functions","transform-regenerator",
+    ["transform-runtime", {
     "polyfill": false,
     "regenerator": true
-  }]]
+    }]
+  ]
 }
